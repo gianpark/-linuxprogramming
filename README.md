@@ -1,9 +1,13 @@
 # -linuxprogramming
+
 실습과제1
+
 #include <iostream>
+
 using namespace std;
 
 class complex; //클래스선언
+
 complex complexadd(complex x, complex y);//덧셈전역함수선언
 
 class complex {//클래스정의
@@ -23,7 +27,9 @@ complex complexadd(complex x, complex y) {//덧셈함수
     return c;
 }
 
-실습과제2#include<iostream>
+실습과제2
+
+#include<iostream>
 using namespace std;
 
 class complex { //클래스 선언
@@ -48,6 +54,7 @@ public:
 };
 
 실습과제3
+
 #include <iostream>
 using namespace std;
 class complex { //클래스 선언
