@@ -32,3 +32,6 @@ Intmain() {
 복소수0+0j생성
 
 두복소수의합은-3+13j
+
+![image](https://github.com/user-attachments/assets/9fa41805-308d-41ef-a95b-8b7b545b3573)
+
