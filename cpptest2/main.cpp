@@ -1,9 +1,9 @@
-#include"mylib.h"
+#include"mylib.hpp"
 int main() {
-    complex x(2, 3), y(-5, 10), sum;
-    complexmanager manager; 
-    sum = manager.complexadd(x, y); 
-    cout << "두 복소수의 합은 ";
-    sum.show();
-    return 0;
+Circle x(0,0,2);
+Rect y(1,1,5,10);
+Triangle z(2,2,5,10);
+x.show();
+y.show();
+z.show();
 }
