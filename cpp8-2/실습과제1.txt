@@ -1,0 +1,14 @@
+실습과제1
+
+-예제 8-3에서 SmartTV 객체 htv가 생성될 때 자동으로 호출되
+는 생성자를 순서대로 자세히 설명하시오.
+
+- htv 생성시 지정된 인수가 각 생성자에 어떻게 전달되는지도
+자세히 설명하시오.
+
+객체 htv 생성 ip값(192.0.0.1)과 size값(32)을 전달
+>SmartTV(ipAddr, size)생성자 호출  ip값(192.0.0.1)과 size값(32)을 전달 ip값을  SmartTV멤버 변수ipAddr에 저장
+
+> WideTV(size, true)생성자가 호출되고 size값(32)과 true값을 전달 true값을 WideTV멤버변수VideoIn에 저장
+
+>TV(size)생성자가 호출되고 size값을 전달 size(32)값을 TV멤버면수size에 저장
