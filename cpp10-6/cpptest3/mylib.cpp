@@ -4,9 +4,9 @@ using namespace std;
 int main() {
     vector<vector<int>> x={{-5,2,35},{-20,5,100},{-75,5,-25}};
     vector<int> big={x[0][0],0,0};
-   for (int i = 0; i < 3; i++)
+   for (int i = 0; i < x.size(); i++)
     {
-        for (int j = 0; j < 3; j++){
+        for (int j = 0; j < x[i].size(); j++){
             if(big.at(0)<x.at(i).at(j)){
                 big.at(0)=x.at(i).at(j);
                 big.at(1)=i+1;
