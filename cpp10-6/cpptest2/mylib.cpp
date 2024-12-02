@@ -3,7 +3,6 @@
 using namespace std;
 int main() {
     vector<vector<int>>score;
-    vector<double>avgs;
     int sum,yeol=1;
     double avg,big;
     bool bigger=false;
@@ -16,7 +15,6 @@ int main() {
         cin >> a;
         tmp.push_back(a);}
         score.push_back(tmp);
-
     }
     for (int i = 0; i < score.size(); i++)
     {
@@ -24,11 +22,10 @@ int main() {
         for (int j = 0; j < score[i].size(); j++)
             sum += score.at(i).at(j);
             avg = sum / 3.0;
-            avgs.push_back(avg);
-            if(!bigger){big=avgs.at(0);bigger=true;}
+            if(!bigger){big=avg;bigger=true;}
             if(bigger){
-                if(avgs.at(i)>big){
-                    big=avgs.at(i);
+                if(avg>big){
+                    big=avg;
                     yeol+=i;
                 }
             }
