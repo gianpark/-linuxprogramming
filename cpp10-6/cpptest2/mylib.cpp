@@ -3,7 +3,7 @@
 using namespace std;
 int main() {
     vector<vector<int>>score;
-    int sum,yeol=1;
+    int sum,yeol=0;
     double avg,big;
     bool bigger=false;
     for (int i = 0; i < 3; i++)
@@ -26,7 +26,7 @@ int main() {
             if(bigger){
                 if(avg>big){
                     big=avg;
-                    yeol+=i;
+                    yeol =i+1;
                 }
             }
     }
