@@ -22,7 +22,7 @@ int main() {
         for (int j = 0; j < score[i].size(); j++)
             sum += score.at(i).at(j);
             avg = sum / 3.0;
-            if(!bigger){big=avg;bigger=true;}
+            if(!bigger){big=avg;bigger=true;yeol=1;}
             if(bigger){
                 if(avg>big){
                     big=avg;
